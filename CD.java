@@ -1,13 +1,13 @@
 package Modelos;
 
-class CDS extends Materiales{
+class CD extends Materiales{
     private String artista;
     private String genero;
     private Integer duracion;
     private Integer num_canciones;
     private Integer stock;
 
-    public CDS(Integer idMaterial, String titulo, String artista, String genero, Integer duracion, Integer num_canciones,Integer stock) {
+    public CD(Integer idMaterial, String titulo, String artista, String genero, Integer duracion, Integer num_canciones,Integer stock) {
         super(idMaterial, titulo);
         this.artista = artista;
         this.genero = genero;

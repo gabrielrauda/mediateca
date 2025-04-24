@@ -1,6 +1,6 @@
 package Modelos;
 
-    class Libros extends Materiales{
+    class LIBROS extends Materiales{
     private String autor;
     private Integer num_paginas;
     private String editorial;
@@ -8,7 +8,7 @@ package Modelos;
     private Integer year_libro;
     private Integer stock;
 
-    public Libros(Integer idMaterial, String titulo, String autor, Integer num_paginas, String editorial, String ISBN, Integer year_libro, Integer stock) {
+    public LIBROS(Integer idMaterial, String titulo, String autor, Integer num_paginas, String editorial, String ISBN, Integer year_libro, Integer stock) {
         super(idMaterial, titulo);
         this.autor = autor;
         this.num_paginas = num_paginas;

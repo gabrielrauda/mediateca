@@ -1,11 +1,11 @@
 package Modelos;
 
-class Revistas extends Materiales{
+class REVISTAS extends Materiales{
     private String editorial;
     private String periodicidad;
     private Integer stock;
 
-    public Revistas(Integer idMaterial, String titulo, String editorial, String periodicidad, Integer stock) {
+    public REVISTAS(Integer idMaterial, String titulo, String editorial, String periodicidad, Integer stock) {
         super(idMaterial, titulo);
         this.editorial = editorial;
         this.periodicidad = periodicidad;
